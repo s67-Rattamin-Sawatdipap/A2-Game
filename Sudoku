@@ -6,3 +6,7 @@ void setup() {
   noLoop();
   generateRandomBoard(); 
 }
+void draw() {
+  background(255);
+  drawBoard();
+}
