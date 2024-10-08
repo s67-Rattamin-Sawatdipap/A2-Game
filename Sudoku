@@ -44,3 +44,8 @@ void drawBoard() {
 
   strokeWeight(1);
 }
+void mousePressed() {
+  int w = width / 9;
+  selectedCol = mouseX / w;
+  selectedRow = mouseY / w;
+}
